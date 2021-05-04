@@ -1,0 +1,4 @@
+n1 = float(input('A primeira nota:\n'))
+n2 = float(input('A segunda nota é:\n'))
+m = (n1 + n2) // 2
+input(str('a sua media é {}'.format(m)))
