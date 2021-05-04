@@ -1,0 +1,12 @@
+tab = int(input('digite um numero para ver sua tabuada:\n'))
+tn1 = tab*1
+tn2 = tab*2
+tn3 = tab*3
+tn4 = tab*4
+tn5 = tab*5
+tn6 = tab*6
+tn7 = tab*7
+tn8 = tab*8
+tn9 = tab*9
+tn10 = tab*10
+input(' {} x 1 = {} \n {} x 2 = {} \n {} x 3 = {} \n {} x 4 = {} \n {} x 5 = {} \n {} x 6 = {} \n {} x 7 = {} \n {} x 8 = {} \n {} x 9 = {} \n {} x 10 = {}'.format(tab, tn1, tab, tn2, tab, tn3, tab, tn4, tab, tn5, tab, tn6, tab, tn7, tab, tn8, tab, tn9, tab, tn10))
