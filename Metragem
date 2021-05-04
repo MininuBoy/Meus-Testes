@@ -1,0 +1,8 @@
+num = int(input('Coloque uma quantidade de metros:\n'))
+mm = num*1000
+cm = num*100
+dm = num*10
+dam = num/10
+hm = num/100
+km = num/1000
+input(str('{} são \n {} milimetros \n {} centimetros \n {} decimetros \n {} decametros \n {} hectometros \n {} quilometros'.format(num, mm, cm, dm, dam, hm, km)))
