@@ -1,0 +1,7 @@
+print ( 'Vamo outra so pra mostra minha pikuresa' )
+a = input('Digita algo ai:')
+print('Ela é alfanumerica?', a.isalnum())
+print('Ta tudo maiusculo?', a.isupper())
+print('Ta tudo minusculo?', a.islower())
+print('É um numero?', a.isnumeric())
+print('É decimal?', a.isdecimal())
