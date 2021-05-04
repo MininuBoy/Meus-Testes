@@ -1,0 +1,5 @@
+sal = int(input('Qual é o seu salario:'))
+por = int(input('E qual a porcentagem:'))
+sf = (sal/100)*por
+rf = sf + sal
+input('O salario de {} com um aumento de {} por cento da um aumento de {} reais o que da no total {}'.format(sal, por, sf, rf))
