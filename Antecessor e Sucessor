@@ -1,0 +1,4 @@
+n = int(input(print('Digita um numero:\n')))
+a = n-1
+s = n+1
+input(str('O sucessor de {} é {} e o antecessor {}'.format(n, s, a)))
