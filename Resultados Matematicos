@@ -1,0 +1,14 @@
+nome = input ('qual teu nome mermo meu mano?')
+print('{}? Serio?'.format(nome))
+print(str('Parabens {} esse nome é uma BOSTA'.format(nome)))
+
+print('Agora parando de falar do seu nome de merda vamo la')
+n1 = int(input('um valor massa:'))
+n2 = int(input('mais um so de quebra:'))
+s= n1 + n2
+m= n1 * n2
+d= n1 / n2
+di= n1 // n2
+e= n1 ** n2
+print('A soma deu {}, o produto deu {} e a divisão de {} '.format(s,m,d,))
+print('A divisão inteira deu {} e a potencia {}'.format(di,e))
